@@ -15,7 +15,7 @@ public class AccountTransaction implements Serializable {
     private Long memberId;
     private Long amount;
     private LocalDate transactionDate;
-    private AccountType accountType; //for the foreign key
+    private AccountType accountType;
     private AccountTransactionDetails details;
 
     public AccountTransaction() {

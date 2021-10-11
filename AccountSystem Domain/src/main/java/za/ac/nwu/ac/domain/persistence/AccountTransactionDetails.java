@@ -68,24 +68,5 @@ public class AccountTransactionDetails implements Serializable {
         this.numberOfItems = numberOfItems;
     }
 
-    /*@Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        AccountTransactionDetails that = (AccountTransactionDetails) o;
-        return Objects.equals(accountTransactionDetailsId, that.accountTransactionDetailsId) && Objects.equals(accountTransaction, that.accountTransaction) && Objects.equals(partnerName, that.partnerName) && Objects.equals(numberOfItems, that.numberOfItems);
-    }
-    @Override
-    public int hashCode() {
-        return Objects.hash(accountTransactionDetailsId, accountTransaction, partnerName, numberOfItems);
-    }
-    @Override
-    public String toString() {
-        return "AccountTransactionDetails{" +
-                "accountTransactionDetailsId=" + accountTransactionDetailsId +
-                ", accountTransaction=" + accountTransaction +
-                ", parterName='" + partnerName + '\'' +
-                ", numberOfItems=" + numberOfItems +
-                '}';
-    }*/
+
 }

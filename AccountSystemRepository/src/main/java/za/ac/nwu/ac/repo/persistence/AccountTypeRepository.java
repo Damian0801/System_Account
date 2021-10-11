@@ -1,4 +1,4 @@
-package za.ac.nwu.repo.persistence;
+package za.ac.nwu.ac.repo.persistence;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -26,7 +26,7 @@ public interface AccountTypeRepository extends JpaRepository<AccountType, Long> 
             " WHERE at.mnemonic = :mnemonic")
     AccountType getAccountTypeByMnemonic(String mnemonic);
 
-    @Query(value = "SELECT new za.ac.nwu.domain.dto.AccountTypeDto( " +
+    @Query(value = "SELECT new za.ac.nwu.ac.domain.dto.AccountTypeDto( " +
             "at.mnemonic," +
             " at.accountTypeName," +
             " at.creationDate )" +
